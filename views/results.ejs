@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Generated Captions</title>
+</head>
+<body>
+  <h1>Generated Captions</h1>
+  <% if (error) { %>
+    <p><%= error %></p>
+  <% } %>
+  <ul>
+    <% captions.forEach(function(caption) { %>
+      <li><%= caption %></li>
+    <% }) %>
+  </ul>
+  <a href="/copywriter">Back</a>
+</body>
+</html>

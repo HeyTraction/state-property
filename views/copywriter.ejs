@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>State Property Copywriter</title>
+</head>
+<body>
+  <h1>State Property Copywriter</h1>
+  <form action="/copywriter" method="POST">
+    <div>
+      <label>Product URL:</label>
+      <input type="url" name="productUrl" required>
+    </div>
+    <div>
+      <label>Content Type:</label>
+      <select name="contentType">
+        <option value="reel">Reel</option>
+        <option value="post">Post</option>
+        <option value="press">Press</option>
+        <option value="pack shot">Pack Shot</option>
+        <option value="mood shot">Mood Shot</option>
+        <option value="lookbook">Lookbook</option>
+      </select>
+    </div>
+    <div>
+      <label>Additional details:</label>
+      <textarea name="details" rows="4" cols="50"></textarea>
+    </div>
+    <button type="submit">Generate Captions</button>
+  </form>
+</body>
+</html>

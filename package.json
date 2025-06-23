@@ -1,0 +1,14 @@
+{
+  "name": "state-property",
+  "version": "1.0.0",
+  "description": "State Property Copywriter app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "openai": "^3.2.1"
+  }
+}
